@@ -1,0 +1,12 @@
+.video-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh; /* Adjust the height as needed */
+}
+
+.video-player {
+    width: 80%;
+    max-width: 800px; /* Adjust the maximum width as needed */
+}

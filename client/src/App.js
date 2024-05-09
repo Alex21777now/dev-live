@@ -1,25 +1,14 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import VideoPlayer from './VideoPlayer';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          EditED <code>src/App.js</code> and save to BE reloadED.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
-}
+const App = () => {
+    return (
+        <div>
+            <h1>Welcome to My Website</h1>
+            <VideoPlayer />
+            жопа не играет видео
+        </div>
+    );
+};
 
 export default App;
