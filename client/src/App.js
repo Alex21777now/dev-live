@@ -1,14 +1,12 @@
 import React from 'react';
-import VideoPlayer from './VideoPlayer';
+import Main from './components/Main';
 
-const App = () => {
-    return (
-        <div>
-            <h1>Welcome to My Website</h1>
-            <VideoPlayer />
-            жопа не играет видео
-        </div>
-    );
-};
+function App() {
+  return (
+    <div>
+      <Main />
+    </div>
+  );
+}
 
 export default App;
